@@ -17,7 +17,7 @@ array(23) {
   [4]=>
   string(11) "offsetUnset"
   [5]=>
-  string(25) "getIteratorForTraversable"
+  string(11) "getIterator"
   [6]=>
   string(5) "count"
   [7]=>
@@ -73,7 +73,7 @@ array(23) {
   [4]=>
   string(11) "offsetUnset"
   [5]=>
-  string(25) "getIteratorForTraversable"
+  string(11) "getIterator"
   [6]=>
   string(5) "count"
   [7]=>

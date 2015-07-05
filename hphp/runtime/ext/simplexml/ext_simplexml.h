@@ -69,7 +69,7 @@ struct c_SimpleXMLElement : SimpleXMLElementBase {
   public: Variant t_offsetget(const Variant& index);
   public: void t_offsetset(const Variant& index, const Variant& newvalue);
   public: void t_offsetunset(const Variant& index);
-  public: Variant t_getiteratorfortraversable();
+  public: Variant t_getiterator();
   public: int64_t t_count();
   public: Variant t_xpath(const String& path);
   public: bool t_registerxpathnamespace(const String& prefix, const String& ns);

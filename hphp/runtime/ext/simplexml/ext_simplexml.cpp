@@ -1619,13 +1619,7 @@ Array c_SimpleXMLElement::ToArray(const ObjectData* obj) {
   return properties;
 }
 
-/*
- * SimpleXMLElement is a Traversable, but not an Iterator or an
- * IteratorAggregate. So this magic function returns the iterator
- * implementation for this class. This function is recognized
- * by "ObjectData::iterableObject"
- */
-Variant c_SimpleXMLElement::t_getiteratorfortraversable() {
+Variant c_SimpleXMLElement::t_getiterator() {
   Object obj = create_object(c_SimpleXMLElementIterator::classof()->nameStr(),
                              Array(), false);
   auto iter = cast<c_SimpleXMLElementIterator>(obj);
